@@ -12,13 +12,15 @@ return [
 ];
 
 For example:
-curl index used on call connector for set connector type. this index has 2 items: 1- directory of file 2- class name
+curl index used on call connector for set connector type.
+This index has 2 items: 1- directory of file 2- class name
 
 ###init.php
 Include abstrac class for all connectors and static class for call connectors on your projects
 
 For example:
 You can call Connector::connect('curl',array()) for connect to server. 
+
 After call connect method it return a abstConnector object on success conection and then you can call Connector::post($abstConnector,$params) for send data to sever
 
 
