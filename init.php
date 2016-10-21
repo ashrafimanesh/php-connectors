@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Description of abstConnector
+ * abstract class for import connector class
  *
  * @author ramin ashrafimanesh <ashrafimanesh@gmail.com>
  */
@@ -12,7 +12,7 @@ abstract class abstConnector{
 }
 
 class Connector {
-    public static function connect($type,$params){
+    public static function connect($type,$params=array()){
         $types=  require_once 'config.php';
         if(isset($types[$type])){
             require_once $types[$type][0];
