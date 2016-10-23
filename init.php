@@ -13,7 +13,7 @@ abstract class abstConnector{
 
 class Connector {
     public static function connect($type,$params=array()){
-        $types=  require_once 'config.php';
+        $types=  require __DIR__.'/config.php';
         if(isset($types[$type])){
             require_once $types[$type][0];
             $class=new $types[$type][1];
