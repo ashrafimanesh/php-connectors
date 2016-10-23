@@ -1,5 +1,5 @@
 <?php
-
+namespace phpConnectors;
 /**
  * abstract class for import connector class
  *

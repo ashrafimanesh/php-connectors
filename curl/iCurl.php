@@ -1,5 +1,5 @@
 <?php
-
+namespace phpConnectors;
 /**
  * Description of iCurl
  *

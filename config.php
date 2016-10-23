@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'curl'=>['curl/iCurl.php','iCurl'],
-    'soap'=>['soap/iSoap.php','iSoap'],
+    'curl'=>['curl/iCurl.php','phpConnectors\iCurl'],
+    'soap'=>['soap/iSoap.php','phpConnectors\iSoap'],
 ];
